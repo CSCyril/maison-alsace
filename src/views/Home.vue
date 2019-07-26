@@ -91,7 +91,7 @@
                             <h3>Réservation ―</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut soluta facilis minima, vero quos quam amet quaerat numquam repudiandae.</p>
                         </div>
-                        <div class="col-md-7" style="background-color: blue">
+                        <div class="col-md-7" style="padding-top: 5px;">
                             <form>
                                 <div class="row">
                                     <div class="col-md-6">
@@ -260,6 +260,8 @@ img {
     color: #fff;
     border-radius: 0;
     border-color: #8D6C49;
+    height: 48px;
+    margin-top: 3px;
 }
 
 header h1 {
