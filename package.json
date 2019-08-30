@@ -10,15 +10,19 @@
     "start": "concurrently \"npm run frontend\" \"npm run backend\" "
   },
   "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.28",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
+    "leaflet": "^1.5.1",
+    "leaflet-gesture-handling": "^1.1.8",
     "morgan": "~1.9.0",
     "request": "^2.88.0",
     "vue-carousel": "^0.18.0",
     "vue-hotel-datepicker": "^2.6.4",
     "vue-router": "^3.0.7",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "vue2-leaflet": "^2.2.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",

@@ -1,7 +1,8 @@
 <template>
     <div id="accueil">
         <header>
-            <h1>Le luxe sans prétention.</h1>
+            <h1>Maison d'Alsace.</h1>
+            <h2>Le charme sans prétention</h2>
             <carousel :perPage="1" :paginationPosition="bottom-overlay">
                 <slide>
                     <img src="../assets/room1.jpg" />
@@ -224,13 +225,24 @@ export default {
                 'check-in': 'Arrivé',
                 'check-out': 'Départ',
                 'month-names': ['Janvier', 'Fevrier', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Decembre'],
-}
+            },
+            slide: 0,
+            sliding: null
+        }
+    },
+    methods: {
+        onSlideStart(slide) {
+            this.sliding = true
+        },
+        onSlideEnd(slide) {
+            this.sliding = false
         }
     }
 }
 </script>
 
 <style>
+/*
 img {
     opacity: 0.7;
 }
@@ -274,7 +286,9 @@ header h1 {
     right: 0;
     color: #fff;
     text-align: center;
-    /* text-transform: uppercase; */
+    font-size: 82px;
+    font-weight: 500;
+    text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
 }
 
 #about {
@@ -346,7 +360,7 @@ header h1 {
 
 #booking {
     background-color: #38393b;
-    height: 250px;;
+    height: 250px;
 }
 
 .reservation {
@@ -383,5 +397,5 @@ form {
 
 .contact-right {
     background-color: #f4f0ed;
-}
+}*/
 </style>
