@@ -1,29 +1,7 @@
-# v-template
+# Maison d'alsace
 
-## Project setup
-```
-npm install
-```
+## Le projet
+Réalisation d'un site internet pour une maison d'hôte en alsace du nord. Projet réalisé avec les technologies Node.js et Vue.js. Le but est d'utiliser l'API Booking, plateforme actuelle sur laquelle la maison d'hôte se trouve, pour gérer directement depuis le site internet les réservations en ligne.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Accéder au site
+Voir [Maison d'alsace](https://happy-easley-58597a.netlify.com).
